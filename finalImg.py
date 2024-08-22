@@ -12,10 +12,9 @@ from tkinter import ttk
 import cv2
 
 
-
 my_w = tk.Tk()
 my_w.attributes('-fullscreen', True)  # Size of the window 
-my_w.title("Welcome To ExpRem") 
+my_w.title("Welcome To ExpRem")
 
 my_tree = ttk.Treeview(my_w)
 

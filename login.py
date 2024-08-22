@@ -1,8 +1,3 @@
-'''
-Registration and Login System : Login Module
-@author : Suyash Shivaji Phatak
-Date: 12/5/2020
-'''
 
 # Importing Libraries
 from os import system

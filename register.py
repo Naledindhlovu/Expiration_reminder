@@ -1,8 +1,3 @@
-'''
-Registration and Login System: Registration Module
-@author : Suyash Shivaji Phatak
-Date: 12/5/2020
-'''
 
 # Importing Libraries
 from tkinter import *
@@ -10,6 +5,7 @@ from tkinter import messagebox as ms
 import tkinter as tk
 import sqlite3
 from PIL import ImageTk, Image
+
 
 # Creating register function
 def Register():

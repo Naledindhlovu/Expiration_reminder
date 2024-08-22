@@ -9,7 +9,9 @@ from register import Register
 from PIL import ImageTk, Image
 
 import re     
-regex = '^[a-z0-9]+[\._]?[a-z0-9]+[@]\w+[.]\w{2,3}$'
+regex = r'^[a-z0-9]+[\._]?[a-z0-9]+[@]\w+[.]\w{2,3}$'
+
+
  
 ''' Window Setting Start '''
 # Creating Widget
