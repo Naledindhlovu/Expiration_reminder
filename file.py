@@ -1,5 +1,9 @@
 import cv2
 
+import numpy as np
+
+
+print(cv2.__version__)
 
 #img = cv2.imread('lena.PNG')
 thres = 0.5

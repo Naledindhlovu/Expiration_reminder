@@ -10,6 +10,8 @@ import sqlite3
 from tkinter import filedialog
 from tkinter import ttk
 import cv2
+import os
+print("Current Working Directory:", os.getcwd())
 
 
 my_w = tk.Tk()
@@ -18,7 +20,8 @@ my_w.title("Welcome To ExpRem")
 
 my_tree = ttk.Treeview(my_w)
 
-img = Image.open("notify-label.png")
+img = Image.open("C:\\Users\\Capaciti\\Documents\\Expiration_reminder\\notify-label.png")
+
 tkimage = ImageTk.PhotoImage(img)
 
 img_label = Label(my_w, image=tkimage)
