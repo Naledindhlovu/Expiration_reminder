@@ -11,7 +11,7 @@ from tkinter import filedialog
 from tkinter import ttk
 import cv2
 
-img = Image.open("C:\\Users\\Capaciti\\Documents\\Expiration_reminder\\notify-label.png")
+
 my_w = tk.Tk()
 my_w.attributes('-fullscreen', True)  # Size of the window 
 my_w.title("Welcome To ExpRem")
